@@ -1,5 +1,5 @@
 import hashlib
-
+# Importing hashlib module
 
 # initializing string 
 mystring = input("Enter your value: ")
@@ -10,4 +10,4 @@ myhash = hashlib.md5(mystring.encode())
 
 # printing the equivalent hexadecimal value. 
 print("The md5 hash of your value is : ", end ="") 
-print(myhash.hexdigest()) 
+print(myhash.hexdigest())
